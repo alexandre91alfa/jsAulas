@@ -1,0 +1,26 @@
+{
+  "name": "jsaulas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandre91alfa/jsAulas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandre91alfa/jsAulas/issues"
+  },
+  "homepage": "https://github.com/alexandre91alfa/jsAulas#readme",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}

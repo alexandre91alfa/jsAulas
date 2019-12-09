@@ -1,0 +1,15 @@
+const user = {
+    name: "Alexandre",
+    sobrenome: "Santos"
+}
+
+function getUser(user) {
+    return {
+        ...user,
+        fullName: `${user.name} ${user.sobrenome}`
+    }
+}
+
+const userWithFullName = getUser(user);
+
+console.log(userWithFullName)
